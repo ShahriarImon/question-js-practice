@@ -58,16 +58,18 @@
 }
 .btn:hover {
   cursor: pointer;
+  transform: rotate(90deg);
+  transition: all 0.8s;
 }
 .btn-plus {
-  background-color: rgba(30, 206, 23, 0.83);
+  background-color: rgb(132, 231, 231);
   font-size: 200%;
   display: block;
-  color: aliceblue;
+  color: black;
 }
 .btn-minus {
-  background-color: rgba(222, 38, 31, 0.83);
+  background-color: rgb(132, 231, 231);
   font-size: 200%;
   display: none;
-  color: aliceblue;
+  color: red;
 }
